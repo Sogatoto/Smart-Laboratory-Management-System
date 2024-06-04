@@ -1,0 +1,33 @@
+[{
+        "rolename":"管理员",
+        "roletype":1,
+        "rights":[
+            "/index",
+            "/user-manage",
+            "/user-manage/list",
+            "/right-manage",
+            "/right-manage/rolelist",
+            "/right-manage/rightlist",
+            "/lab-manage",
+            "/lab-manage/lablist",
+            "/lab-manage/addlab",
+            "/book-manage",
+            "/book-manage/auditlist",
+            "/book-manage/booklist",
+            "/book-manage/addbook"
+        ]
+},
+{
+    "id":2,
+    "username":"SeaCode",
+    "role":{
+        "rolename":"教师",
+        "roletype":2,
+        "rights":[
+            "/index",
+            "/book-manage",
+            "/book-manage/booklist",
+            "/book-manage/addbook"
+        ]
+    }
+}]

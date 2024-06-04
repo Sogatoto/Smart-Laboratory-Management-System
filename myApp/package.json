@@ -1,0 +1,30 @@
+{
+  "name": "myapp",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@antv/l7": "^2.21.10",
+    "@antv/l7-maps": "^2.21.10",
+    "@tsparticles/vue3": "^3.0.1",
+    "axios": "^1.7.2",
+    "element-plus": "^2.7.3",
+    "moment": "^2.30.1",
+    "pinia": "^2.1.7",
+    "pinia-plugin-persistedstate": "^3.2.1",
+    "sass": "^1.77.2",
+    "tsparticles": "^3.4.0",
+    "tsparticles-slim": "^2.12.0",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "vite": "^5.2.0"
+  }
+}
